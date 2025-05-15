@@ -1,0 +1,712 @@
+{
+  "dias": [
+    {
+      "nombre": "Lunes",
+      "turnos": [
+        {
+          "nombre": "Tarde",
+          "horaInicio": "13:20",
+          "horaFin": "20:15",
+          "modulos": [
+            {
+              "nroModulo": 1,
+              "horaInicio": "13:20",
+              "horaFin": "14:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Digital IV",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 2,
+              "horaInicio": "14:00",
+              "horaFin": "14:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Digital",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 3,
+              "horaInicio": "14:40",
+              "horaFin": "15:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Digital",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 4,
+              "horaInicio": "15:20",
+              "horaFin": "16:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Emprendimientos",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Marco"
+              }
+            },
+            {
+              "nroModulo": 5,
+              "horaInicio": "16:00",
+              "horaFin": "16:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "Emprendimientos",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Marco"
+              }
+            },
+            {
+              "nroModulo": 6,
+              "horaInicio": "16:40",
+              "horaFin": "17:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "Emprendimientos",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Marco"
+              }
+            },
+            {
+              "nroModulo": 7,
+              "horaInicio": "17:20",
+              "horaFin": "18:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Emprendimientos",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Marco"
+              }
+            },
+            {
+              "nroModulo": 8,
+              "horaInicio": "18:00",
+              "horaFin": "18:15",
+              "recreo": true,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 9,
+              "horaInicio": "18:15",
+              "horaFin": "18:55",
+              "recreo": false,
+              "materia": {
+                "nombre": "Telecomunicaciones II",
+                "categoria": "Técnica"
+              },
+              "profesor": null
+            },
+            {
+              "nroModulo": 10,
+              "horaInicio": "18:55",
+              "horaFin": "19:35",
+              "recreo": false,
+              "materia": {
+                "nombre": "Telecomunicaciones II",
+                "categoria": "Técnica"
+              },
+              "profesor": null
+            },
+            {
+              "nroModulo": 11,
+              "horaInicio": "19:35",
+              "horaFin": "20:15",
+              "recreo": false,
+              "materia": {
+                "nombre": "Telecomunicaciones II",
+                "categoria": "Técnica"
+              },
+              "profesor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Martes",
+      "turnos": [
+        {
+          "nombre": "Tarde",
+          "horaInicio": "13:20",
+          "horaFin": "20:15",
+          "modulos": [
+            {
+              "nroModulo": 1,
+              "horaInicio": "13:20",
+              "horaFin": "14:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Industrial II",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 2,
+              "horaInicio": "14:00",
+              "horaFin": "14:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Industrial II",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 3,
+              "horaInicio": "14:40",
+              "horaFin": "15:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Industrial II",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 4,
+              "horaInicio": "15:20",
+              "horaFin": "16:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Industrial II",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 5,
+              "horaInicio": "16:00",
+              "horaFin": "16:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "Inglés Técnico",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Arnaudi"
+              }
+            },
+            {
+              "nroModulo": 6,
+              "horaInicio": "16:40",
+              "horaFin": "17:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "Inglés Técnico",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Arnaudi"
+              }
+            },
+            {
+              "nroModulo": 7,
+              "horaInicio": "17:20",
+              "horaFin": "18:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Inglés Técnico",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Arnaudi"
+              }
+            },
+            {
+              "nroModulo": 8,
+              "horaInicio": "18:00",
+              "horaFin": "18:15",
+              "recreo": true,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 9,
+              "horaInicio": "18:15",
+              "horaFin": "18:55",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 10,
+              "horaInicio": "18:55",
+              "horaFin": "19:35",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 11,
+              "horaInicio": "19:35",
+              "horaFin": "20:15",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Miércoles",
+      "turnos": [
+        {
+          "nombre": "Tarde",
+          "horaInicio": "13:20",
+          "horaFin": "20:15",
+          "modulos": [
+            {
+              "nroModulo": 1,
+              "horaInicio": "13:20",
+              "horaFin": "14:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "F.A.T.",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 2,
+              "horaInicio": "14:00",
+              "horaFin": "14:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "F.A.T.",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 3,
+              "horaInicio": "14:40",
+              "horaFin": "15:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "F.A.T.",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 4,
+              "horaInicio": "15:20",
+              "horaFin": "16:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "F.A.T.",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 5,
+              "horaInicio": "16:00",
+              "horaFin": "16:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "F.A.T.",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 6,
+              "horaInicio": "16:40",
+              "horaFin": "17:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "F.A.T.",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 7,
+              "horaInicio": "17:20",
+              "horaFin": "18:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "F.A.T.",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 8,
+              "horaInicio": "18:00",
+              "horaFin": "18:15",
+              "recreo": true,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 9,
+              "horaInicio": "18:15",
+              "horaFin": "18:55",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 10,
+              "horaInicio": "18:55",
+              "horaFin": "19:35",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 11,
+              "horaInicio": "19:35",
+              "horaFin": "20:15",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Jueves",
+      "turnos": [
+        {
+          "nombre": "Tarde",
+          "horaInicio": "13:20",
+          "horaFin": "20:15",
+          "modulos": [
+            {
+              "nroModulo": 1,
+              "horaInicio": "13:20",
+              "horaFin": "14:00",
+              "recreo": false,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 2,
+              "horaInicio": "14:00",
+              "horaFin": "14:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "M. Jurídico Act. Ind.",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Guardatti"
+              }
+            },
+            {
+              "nroModulo": 3,
+              "horaInicio": "14:40",
+              "horaFin": "15:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "M. Jurídico Act. Ind.",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Guardatti"
+              }
+            },
+            {
+              "nroModulo": 4,
+              "horaInicio": "15:20",
+              "horaFin": "16:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "M. Jurídico Act. Ind.",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Guardatti"
+              }
+            },
+            {
+              "nroModulo": 5,
+              "horaInicio": "16:00",
+              "horaFin": "16:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "Hig. y Seg. Laboral",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Mateo"
+              }
+            },
+            {
+              "nroModulo": 6,
+              "horaInicio": "16:40",
+              "horaFin": "17:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "Hig. y Seg. Laboral",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Mateo"
+              }
+            },
+            {
+              "nroModulo": 7,
+              "horaInicio": "17:20",
+              "horaFin": "18:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Hig. y Seg. Laboral",
+                "categoria": "Aúlica"
+              },
+              "profesor": {
+                "nombre": "Mateo"
+              }
+            },
+            {
+              "nroModulo": 8,
+              "horaInicio": "18:00",
+              "horaFin": "18:15",
+              "recreo": true,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 9,
+              "horaInicio": "18:15",
+              "horaFin": "18:55",
+              "recreo": false,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 10,
+              "horaInicio": "18:55",
+              "horaFin": "19:35",
+              "recreo": false,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 11,
+              "horaInicio": "19:35",
+              "horaFin": "20:15",
+              "recreo": false,
+              "materia": null,
+              "profesor": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Viernes",
+      "turnos": [
+        {
+          "nombre": "Tarde",
+          "horaInicio": "13:20",
+          "horaFin": "20:15",
+          "modulos": [
+            {
+              "nroModulo": 1,
+              "horaInicio": "13:20",
+              "horaFin": "14:00",
+              "recreo": false,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 2,
+              "horaInicio": "14:00",
+              "horaFin": "14:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "Telecomunicaciones II",
+                "categoria": "Técnica"
+              },
+              "profesor": null
+            },
+            {
+              "nroModulo": 3,
+              "horaInicio": "14:40",
+              "horaFin": "15:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "Telecomunicaciones II",
+                "categoria": "Técnica"
+              },
+              "profesor": null
+            },
+            {
+              "nroModulo": 4,
+              "horaInicio": "15:20",
+              "horaFin": "16:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Telecomunicaciones II",
+                "categoria": "Técnica"
+              },
+              "profesor": null
+            },
+            {
+              "nroModulo": 5,
+              "horaInicio": "16:00",
+              "horaFin": "16:40",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Digital IV",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 6,
+              "horaInicio": "16:40",
+              "horaFin": "17:20",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Industrial II",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 7,
+              "horaInicio": "17:20",
+              "horaFin": "18:00",
+              "recreo": false,
+              "materia": {
+                "nombre": "Electrónica Industrial II",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Moretto"
+              }
+            },
+            {
+              "nroModulo": 8,
+              "horaInicio": "18:00",
+              "horaFin": "18:15",
+              "recreo": true,
+              "materia": null,
+              "profesor": null
+            },
+            {
+              "nroModulo": 9,
+              "horaInicio": "18:15",
+              "horaFin": "18:55",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 10,
+              "horaInicio": "18:55",
+              "horaFin": "19:35",
+              "recreo": false,
+              "materia": {
+                "nombre": "Proyecto Integrador",
+                "categoria": "Técnica"
+              },
+              "profesor": {
+                "nombre": "Becerra"
+              }
+            },
+            {
+              "nroModulo": 11,
+              "horaInicio": "19:35",
+              "horaFin": "20:15",
+              "recreo": false,
+              "materia": null,
+              "profesor": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
