@@ -3,7 +3,8 @@
     {
       "nombre": "Lunes",
       "turnos": [
-        {
+        { 
+          "id": 10,
           "nombre": "Tarde",
           "horaInicio": "13:20",
           "horaFin": "20:15",
@@ -147,7 +148,8 @@
     {
       "nombre": "Martes",
       "turnos": [
-        {
+        { 
+          "id": 20,
           "nombre": "Tarde",
           "horaInicio": "13:20",
           "horaFin": "20:15",
@@ -297,7 +299,8 @@
     {
       "nombre": "Miércoles",
       "turnos": [
-        {
+        { 
+          "id": 30,
           "nombre": "Tarde",
           "horaInicio": "13:20",
           "horaFin": "20:15",
@@ -447,7 +450,8 @@
     {
       "nombre": "Jueves",
       "turnos": [
-        {
+        { 
+          "id": 40,
           "nombre": "Tarde",
           "horaInicio": "13:20",
           "horaFin": "20:15",
@@ -577,7 +581,8 @@
     {
       "nombre": "Viernes",
       "turnos": [
-        {
+        { 
+          "id": 50,
           "nombre": "Tarde",
           "horaInicio": "13:20",
           "horaFin": "20:15",

@@ -1,20 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import data from './assets/data.json';
 import { Turno } from './Turnos';
 import './modulo.css';
 
 export function DragDrop() {
+  const [dias, setDias] = useState(data.dias);
+
+  const actualizarTurno = (diaIndex, turnoIndex, turnoActualizado) => {
+    const nuevosDias = [...dias];
+    nuevosDias[diaIndex].turnos[turnoIndex] = turnoActualizado;
+    setDias(nuevosDias);
+  };
+
+  const guardarDatos = async () => {
+    try {
+      const response = await fetch('http://localhost:5000/guardar-turnos', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(dias),
+      });
+
+      const result = await response.json();
+      console.log('✅ Respuesta del servidor:', result);
+      alert('Datos guardados correctamente');
+    } catch (error) {
+      console.error('❌ Error al guardar:', error);
+      alert('Error al guardar los datos');
+    }
+  };
+
   return (
     <div className="tabla-semanal">
-      {data.dias.map((dia, i) => (
+      {dias.map((dia, i) => (
         <div key={i} className="dia">
           <h2>{dia.nombre}</h2>
-
           {dia.turnos.map((turno, j) => (
-            <Turno key={j} turno={turno} />
+            <Turno
+              key={j}
+              turno={turno}
+              onUpdate={(turnoActualizado) => actualizarTurno(i, j, turnoActualizado)}
+            />
           ))}
         </div>
       ))}
+      <button onClick={guardarDatos} style={{ marginTop: '20px' }}>
+        Guardar
+      </button>
     </div>
   );
 }
