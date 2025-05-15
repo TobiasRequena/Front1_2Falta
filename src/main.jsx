@@ -1,14 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { GoogleOAuthProvider } from '@react-oauth/google';
+// import { GoogleOAuthProvider } from '@react-oauth/google';
 import './index.css'
 import App from './App.jsx'
+import { DragDrop } from './DragDrop.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <GoogleOAuthProvider clientId='9647985938-kdf58mh38kh8jth42t1gk1vpuibdps62.apps.googleusercontent.com'>
+  // <GoogleOAuthProvider clientId='9647985938-kdf58mh38kh8jth42t1gk1vpuibdps62.apps.googleusercontent.com'>
     <StrictMode>
-    <App />
+    {/* //<App />  */}
+    <DragDrop />
   </StrictMode>
-  </GoogleOAuthProvider>
+  // {/* </GoogleOAuthProvider> */}
   
 )
