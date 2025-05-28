@@ -1,10 +1,19 @@
-import React, { useState } from 'react';
-import data from './assets/data.json';
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Turno } from './Turnos';
 import './modulo.css';
 
 export function DragDrop() {
-  const [dias, setDias] = useState(data.dias);
+  const location = useLocation();
+  const datosIniciales = location.state?.datos;
+
+  const [dias, setDias] = useState([]);
+
+  useEffect(() => {
+    if (datosIniciales) {
+      setDias(datosIniciales.dias); // o lo que venga desde el backend
+    }
+  }, [datosIniciales]);
 
   const actualizarTurno = (diaIndex, turnoIndex, turnoActualizado) => {
     const nuevosDias = [...dias];
