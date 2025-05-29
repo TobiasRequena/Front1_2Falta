@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Turno } from './Turnos';
-import './modulo.css';
+import { Turno } from '../../componentes/Turnos';
+import '../../estilos/modulo.css';
 
-export function DragDrop() {
+const Horario = () => {
   const location = useLocation();
   const datosIniciales = location.state?.datos;
 
@@ -52,9 +52,14 @@ export function DragDrop() {
           ))}
         </div>
       ))}
-      <button onClick={guardarDatos} style={{ marginTop: '20px' }}>
-        Guardar
-      </button>
+
+      {datosIniciales && (
+          <button onClick={guardarDatos} style={{ marginTop: '20px' }}>
+          Guardar
+        </button>
+      )}
     </div>
   );
 }
+
+export default Horario;

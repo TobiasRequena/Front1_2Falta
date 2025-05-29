@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-import PageInput from './PageInput';
-import { DragDrop } from './DragDrop';
+import PageInput from './assets/paginas/PageInput';
+import Horario from './assets/paginas/Horario';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<PageInput />} />
-      <Route path="/resultado" element={<DragDrop />} />
+      <Route path="/resultado" element={<Horario />} />
     </Routes>
   );
 }

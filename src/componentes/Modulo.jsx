@@ -1,6 +1,6 @@
 import React from 'react';
 import { HolderOutlined } from '@ant-design/icons';
-import './modulo.css';
+import '../estilos/modulo.css';
 
 export const Modulo = ({ materia, profesor }) => {
   return (

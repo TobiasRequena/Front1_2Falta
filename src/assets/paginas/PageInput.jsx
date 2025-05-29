@@ -1,7 +1,7 @@
 import { InboxOutlined } from '@ant-design/icons';
 import { message, Upload, notification } from 'antd';
 import { useNavigate } from 'react-router-dom';
-import './pageInput.css'; 
+import '../../estilos/pageInput.css'; 
 
 const { Dragger } = Upload;
 
