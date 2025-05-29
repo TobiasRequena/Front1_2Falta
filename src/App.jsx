@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import PageInput from './assets/paginas/PageInput';
-import Horario from './assets/paginas/Horario';
+import PageInput from './paginas/PageInput';
+import Horario from './paginas/Horario';
 
 function App() {
   return (

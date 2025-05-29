@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Turno } from '../../componentes/Turnos';
-import '../../estilos/modulo.css';
+import { Turno } from '../componentes/Turnos';
+import '../estilos/modulo.css';
 
 const Horario = () => {
   const location = useLocation();
